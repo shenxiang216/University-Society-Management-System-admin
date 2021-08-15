@@ -1,0 +1,27 @@
+.layout {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.brand {
+  font-size: 18px;
+  flex: 1;
+  margin-left: 45%;
+}
+.content {
+  padding: 20px;
+  overflow: auto;
+}
+.avatar {
+  cursor: pointer;
+}
+.username {
+  margin-right: 20px;
+}
+.exit{
+  display: none;
+}
