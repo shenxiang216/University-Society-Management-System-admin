@@ -66,7 +66,7 @@ export default class Home extends React.Component<RouteComponentProps> {
     const admincompany = (
       <>
         <Menu.Item icon={<FileOutlined />} key={`${prefix}/company`}>
-          我的企业
+          我的社团
         </Menu.Item>
         <Menu.Item icon={<UserOutlined />} key={`${prefix}/info`}>
           个人信息
@@ -80,7 +80,7 @@ export default class Home extends React.Component<RouteComponentProps> {
     const company = (
       <>
         <Menu.Item icon={<FileOutlined />} key={`${prefix}/jobs`}>
-          我的活动
+          社团活动
         </Menu.Item>
         <Menu.Item icon={<UserOutlined />} key={`${prefix}/info`}>
           个人信息
